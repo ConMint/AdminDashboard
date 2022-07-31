@@ -11,68 +11,158 @@
     <div class="container">
         <div class="sidebar">Sidebar</div>
         <div class="mainPage">
-            <div class="header">Header</div>
+            <div class="header">
+                <div class="firstRowHeader">
+                    <div class="leftSideFirst">
+                        <img class = "interact-option" id = "magnify" src="images/magnify.svg">
+                        <input type="text">
+                    </div>
+                    <div class="rightSideFirst">
+                        <img class = "interact-option"id = "bell" src="images/bell-ring.svg">
+                        <img class="interact-option" id="avatar2Top" src="images/avatar2.jpg">
+                        <h2 class="interact-option" id="username">Connor Minto</h2>
+                        <button class = "interact-option" id ="signout" type="button">Sign out</button>
+                    </div>
+                </div>
+                <div class="secondRowHeader">
+                    <div class="leftSideSecond">
+                        <img class="interact-option" id="avatar2bottom" src="images/avatar2.jpg">
+                        <div class="leftText">
+                            <p>Hi there,</p>
+                            <h2 id ="bigName">Connor Minto (@connor)</h2>
+                        </div>
+                    </div>
+                    <div class="rightSideSecond">
+                        <button class = "interact-option rightButtons" id ="new" type="button">New</button>
+                        <button class = "interact-option rightButtons" id ="upload" type="button">Upload</button>
+                        <button class = "interact-option rightButtons" id ="Share" type="button">Share</button>
+                       
+                    </div>
+                </div>
+            </div>
             <div class="content">
+                <div id="projectMainText">Your Projects</div>
                 <div class="yourProjects">
                     <div class="project">
                         <div class="projectHeading">Super Cool Project</div>
                         <div class="projectText">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div>
                         
                         <ul class="interactions">
-                            <li class="interact-option"><img src="star-plus.svg" alt="you cunto"></li>
-                            <li class="interact-option"><img src="eye-plus.svg" alt="you cunto"></li>
-                            <li class="interact-option"><img src="source-fork.svg" alt="you cunto"></li>
+                            <li class="interact-option"><img src="images/star-plus.svg" alt="you cunto"></li>
+                            <li class="interact-option"><img src="images/eye-plus.svg" alt="you cunto"></li>
+                            <li class="interact-option"><img src="images/source-fork.svg" alt="you cunto"></li>
                         </ul>
                     </div>
                     <div class="project">
-                        <div class="projectHeading">Super Cool Project</div>
-                        <div class="projectText">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div>
-                        <ul class="interactions">
-                            <li class="interact-option"><img src="star-plus.svg" alt="you cunto"></li>
-                            <li class="interact-option"><img src="eye-plus.svg" alt="you cunto"></li>
-                            <li class="interact-option"><img src="source-fork.svg" alt="you cunto"></li>
+                        <div class="projectHeading">Less Cool Project</div>
+                        <div class="projectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel.</div>
+                        <ul class="interactions" id="lessCoolInteractions">
+                            <li class="interact-option"><img src="images/star-plus.svg" alt="you cunto"></li>
+                            <li class="interact-option"><img src="images/eye-plus.svg" alt="you cunto"></li>
+                            <li class="interact-option"><img src="images/source-fork.svg" alt="you cunto"></li>
                         </ul>
                     </div>
                     <div class="project">
-                        <div class="projectHeading">Super Cool Project</div>
-                        <div class="projectText">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div>
-                        <ul class="interactions">
-                            <li class="interact-option"><img src="star-plus.svg" alt="you cunto"></li>
-                            <li class="interact-option"><img src="eye-plus.svg" alt="you cunto"></li>
-                            <li class="interact-option"><img src="source-fork.svg" alt="you cunto"></li>
+                        <div class="projectHeading">Impossible App</div>
+                        <div class="projectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <ul class="interactions" id="impossibleInteractions">
+                            <li class="interact-option"><img src="images/star-plus.svg" alt="you cunto"></li>
+                            <li class="interact-option"><img src="images/eye-plus.svg" alt="you cunto"></li>
+                            <li class="interact-option"><img src="images/source-fork.svg" alt="you cunto"></li>
                         </ul>
                     </div>
                     <div class="project">
-                        <div class="projectHeading">Super Cool Project</div>
-                        <div class="projectText">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div>
-                        <ul class="interactions">
-                            <li class="interact-option"><img src="star-plus.svg" alt="you cunto"></li>
-                            <li class="interact-option"><img src="eye-plus.svg" alt="you cunto"></li>
-                            <li class="interact-option"><img src="source-fork.svg" alt="you cunto"></li>
+                        <div class="projectHeading">Easy Peasy App</div>
+                        <div class="projectText">Nunc sed maximus lacus, ut placerat quam. Suspendisse libero lacus, pellentesque sit amet erat a. </div>
+                        <ul class="interactions" id = "easyInteractions">
+                            <li class="interact-option"><img src="images/star-plus.svg" alt="you cunto"></li>
+                            <li class="interact-option"><img src="images/eye-plus.svg" alt="you cunto"></li>
+                            <li class="interact-option"><img src="images/source-fork.svg" alt="you cunto"></li>
                         </ul>
                     </div>
                     <div class="project">
-                        <div class="projectHeading">Super Cool Project</div>
-                        <div class="projectText">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div>
-                        <ul class="interactions">
-                            <li class="interact-option"><img src="star-plus.svg" alt="you cunto"></li>
-                            <li class="interact-option"><img src="eye-plus.svg" alt="you cunto"></li>
-                            <li class="interact-option"><img src="source-fork.svg" alt="you cunto"></li>
+                        <div class="projectHeading">Ad Blocker</div>
+                        <div class="projectText">Aliquam erat volutpat. Fusce eu fringilla orci. Nam interdum nisi a felis viverra, nec viverra.</div>
+                        <ul class="interactions" id = "adInteractions">
+                            <li class="interact-option"><img src="images/star-plus.svg" alt="you cunto"></li>
+                            <li class="interact-option"><img src="images/eye-plus.svg" alt="you cunto"></li>
+                            <li class="interact-option"><img src="images/source-fork.svg" alt="you cunto"></li>
                         </ul>
                     </div>
                     <div class="project">
-                        <div class="projectHeading">Super Cool Project</div>
-                        <div class="projectText">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div>
-                        <ul class="interactions">
-                            <li class="interact-option"><img src="star-plus.svg" alt="you cunto"></li>
-                            <li class="interact-option"><img src="eye-plus.svg" alt="you cunto"></li>
-                            <li class="interact-option"><img src="source-fork.svg" alt="you cunto"></li>
+                        <div class="projectHeading">Money Maker</div>
+                        <div class="projectText">Duis luctus nulla non gravida egestas. Vestibulum at suscipit turpis. </div>
+                        <ul class="interactions" id = "moneyInteractions">
+                            <li class="interact-option"><img src="images/star-plus.svg" alt="you cunto"></li>
+                            <li class="interact-option"><img src="images/eye-plus.svg" alt="you cunto"></li>
+                            <li class="interact-option"><img src="images/source-fork.svg" alt="you cunto"></li>
                         </ul>
                     </div>
 
                 </div>
-                <div class="announcements">Announcements</div>
-                <div class="trending">Trending</div>
+                <div class="announcements">
+                    <div class="announcementstext">Announcements</div>
+                    <div class="announcementsBox">
+                        <ul class="announcementList">
+                            <li class="announcement">
+                                <h5>Site Maintenance</h5>
+                                <p class="announcementContent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+                                    voluptatum ipsa cupiditate unde minima odio sunt fugit distinctio
+                                    labore sit accusantium voluptas voluptate aliquid rem adipisci
+                                    harum, quasi modi eum quae veritatis amet iusto ratione ea fugiat.</p>
+
+                            </li>
+                            <span>___________________________</span>
+                            <li class="announcement">
+                                <h5>Charity Event</h5>
+                                <p class="announcementContent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+                                    voluptatum ipsa cupiditate unde minima odio sunt fugit distinctio
+                                    labore sit accusantium voluptas voluptate aliquid rem adipisci.</p>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="trending">
+                    <div class="trendingText">Trending</div>
+                    <div class="trendingBox">
+                        <ul class="trendingPeople">
+                            <li id="person1">
+                                <div class="avatar interact-option"><img id="avatar1" src="images/avatar1.jpg"></div>
+                                
+                                <div class="nameAndHandle">
+                                    <p>@tegan <br>
+                                    World Peace Builder</p>
+                                    
+                                                                    </li>
+                                                                    <li id="person2">
+                                                                        <div class="avatar interact-option"><img id="avatar1" src="images/avatar2.jpg"></div>
+                                                                        <div class="nameAndHandle">
+                                        <p>@connor <br>
+                                        Super Cool Project</p>
+                                        
+                                                                        </div>
+                                                                    </li>
+                                                                    <li id="person3">
+                                                                        <div class="avatar interact-option"><img id="avatar1" src="images/avatar3.jpg"></div>
+                                                                        <div class="nameAndHandle">
+                                        <p>@kendall <br>
+                                        Life Changing App</p>
+                                        
+                                                                        </div>
+                                                                    </li>
+                                                                    <li id="person4">
+                                                                        <div class="avatar interact-option"><img id="avatar1" src="images/avatar4.jpg"></div>
+                                                                        <div class="nameAndHandle">
+                                        <p>@alex <br>
+                                        No Traffic Maker
+                                    </div></p>
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
